@@ -29,7 +29,7 @@ Tous les autres utilisateurs seront sous Windows.
 
 <a id="etat"></a>
 ## Etat d'avancement du projet :
-- [ ] Conception des documents : plan d'adressage IPv4 et IPv6 (LLA et ULA), listing machines, schéma synoptique, matrice des flux
+- [X] Conception des documents : plan d'adressage IPv4 et IPv6 (LLA et ULA), listing machines, schéma synoptique, matrice des flux
 - [ ] Configuration du routeur (VLANs et filtrage)
 - [ ] Installation et configuration de l'ADDS avec role DNS et DHCP
 - [ ] Installation et configuration du serveur de fichiers
