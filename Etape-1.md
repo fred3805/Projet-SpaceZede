@@ -14,7 +14,7 @@
 
 **3 - Schéma synoptique :**  
 
-
+![Schema synoptique](https://github.com/user-attachments/assets/7190338d-5fa7-4f53-b4cd-8c2ab2ecb1cc)
 
 **4 - Matrice des flux :**
 
