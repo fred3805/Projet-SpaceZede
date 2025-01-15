@@ -16,8 +16,8 @@
 
 
 
-
 **4 - Matrice des flux :**
 
+![Matrice des flux réseau](https://github.com/user-attachments/assets/461a2ef3-5e21-41a3-bf6c-0493a21dbffa)  
 
 <a href="README.md">(Retourner au sommaire)</a>
