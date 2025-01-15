@@ -69,7 +69,6 @@ Tous les autres utilisateurs seront sous Windows.
 
 - Conception des documents : plan d'adressage IPv4 et IPv6 (LLA et ULA), listing machines, schéma synoptique, matrice des flux
 
-![Plan d'adressage réseau](https://github.com/user-attachments/assets/6d928ee0-4dd2-47d3-9439-578a5bad599b)
 
 ![Liste des équipements](https://github.com/user-attachments/assets/a57dc280-a867-4a5d-ab32-0f40c15e22bf)
 
