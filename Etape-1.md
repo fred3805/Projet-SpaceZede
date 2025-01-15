@@ -10,6 +10,8 @@
 
 **2 - Listing machines :**  
 
+![Liste des équipements](https://github.com/user-attachments/assets/a57dc280-a867-4a5d-ab32-0f40c15e22bf)
+
 
 
 
