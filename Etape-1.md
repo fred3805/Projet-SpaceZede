@@ -1,5 +1,5 @@
 ## Conception des documents
-<p align="right"><a href="README.md">(Retourner au sommaire)</a></p>
+<p align="right"><a href="README.md"></a></p>
 
 **Description de l'étape :**  
 
