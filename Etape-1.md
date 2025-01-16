@@ -10,7 +10,7 @@
 
 **2 - Listing machines :**  
 
- ![liste equipements](https://github.com/user-attachments/assets/81e94114-4ad5-45cf-89c9-10797b7caeee)  
+ ![liste équipements 1](https://github.com/user-attachments/assets/c221da32-cd3c-4685-bf2a-0f712e008e2f)  
 
 **3 - Schéma synoptique :**  
 
