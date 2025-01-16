@@ -6,11 +6,11 @@
 
 **1 - Plan d'adressage IPv4 et IPv6 (LLA et ULA) :**  
 
-![Plan d'adressage réseau](https://github.com/user-attachments/assets/6d928ee0-4dd2-47d3-9439-578a5bad599b)
+![Capture d'écran 2025-01-16 102258](https://github.com/user-attachments/assets/3c616c1b-7c0c-4a39-800f-706fa490ceaa)  
 
 **2 - Listing machines :**  
 
-![Liste des équipements](https://github.com/user-attachments/assets/a57dc280-a867-4a5d-ab32-0f40c15e22bf)
+ ![liste equipements](https://github.com/user-attachments/assets/81e94114-4ad5-45cf-89c9-10797b7caeee)  
 
 **3 - Schéma synoptique :**  
 
