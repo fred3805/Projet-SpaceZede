@@ -6,7 +6,7 @@
 
 **1 - Plan d'adressage IPv4 et IPv6 (LLA) :**  
 
-![Capture d'écran 2025-01-16 175907](https://github.com/user-attachments/assets/a7e39a50-2348-4238-b9f5-d9a656311dd7)  
+![plan ](https://github.com/user-attachments/assets/1aae97b5-d144-4c83-b800-6b77e94b9e4d)
 
 **2 - Listing machines :**  
 
