@@ -4,7 +4,7 @@
 **Description de l'étape :**  
 
 
-**1 - Plan d'adressage IPv4 et IPv6 (LLA et ULA) :**  
+**1 - Plan d'adressage IPv4 et IPv6 (LLA) :**  
 
 ![Plan d'adressage réseau](https://github.com/user-attachments/assets/d1a65c0e-c42c-4665-89b0-598c1210819e)  
 
