@@ -6,7 +6,7 @@
 
 **1 - Plan d'adressage IPv4 et IPv6 (LLA) :**  
 
-![plan ](https://github.com/user-attachments/assets/1aae97b5-d144-4c83-b800-6b77e94b9e4d)
+![Plan](https://github.com/user-attachments/assets/b6887f27-3d6a-4e9f-a0eb-7db65553467e)  
 
 **2 - Listing machines :**  
 
@@ -14,7 +14,7 @@
 
 **3 - Schéma synoptique :**  
 
- ![Schema synoptique drawio](https://github.com/user-attachments/assets/409b064e-bdf2-45dc-86e8-ff45cd5f2c73)
+![Schema synoptique drawio](https://github.com/user-attachments/assets/0c522f32-9850-4784-97e8-e136f3e3af90)  
 
 **4 - Matrice des flux :**
 
