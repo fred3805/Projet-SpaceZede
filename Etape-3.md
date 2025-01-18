@@ -12,10 +12,13 @@
 **3 - Installation et configuration du serveur de téléphonie :**
 
 
-**4 - Installation et configuration du serveur GLPI :**
+**4 - Installation et configuration du serveur de messagerie :**
 
 
-**5 - Installation et configuration du serveur WEB :**
+**5 - Installation et configuration du serveur GLPI :**
+
+
+**6 - Installation et configuration du serveur WEB :**
 
 
 <a href="README.md">(Retourner au sommaire)</a>
