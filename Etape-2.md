@@ -3,7 +3,21 @@
 
 **Description de l'étape :**  
 
-**1 - Configuration du routeur pfSense :**
+**1 - Configuration du routeur pfSense :**  
+
+- Une fois pfsense installer.
+  
+- Changer l'adresse IP de l'interface LAN donc choisissez l'option "2" et valider puis encore 2 pour choisir le LAN et valider.
+
+- ![Capture d’écran 2025-01-20 180911](https://github.com/user-attachments/assets/21053809-fe21-455a-85b5-ec0eb97b2d43)
+
+Entrer la nouvelle adresse "Gateway" puis le CIDR  
+
+Ensuite taper 2 fois sur "entrer" puis 2 fois sur "n"  
+
+![Capture d’écran 2025-01-20 181409](https://github.com/user-attachments/assets/1f79f4e7-2bbe-44e7-ad1b-fd8ebfebb919)  
+
+Ensuite, vous aurez l'adresse de connection pour l'interface de pfsense.
 
 
 **2 - Configuration des VLANs :**
