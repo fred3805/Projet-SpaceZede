@@ -79,6 +79,7 @@ Tous les autres utilisateurs seront sous Windows.
 - Installation et configuration de l'ADDS avec role DNS et DHCP
 - Installation et configuration du serveur de fichiers
 - Installation et configuration du serveur de téléphonie
+- Installation et configuration du serveur de messagerie
 - Installation et configuration du serveur GLPI
 - Installation et configuration du serveur WEB
 
