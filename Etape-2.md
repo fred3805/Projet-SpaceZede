@@ -50,14 +50,16 @@
 
 ![Capture d’écran 2025-01-20 175752](https://github.com/user-attachments/assets/f8119794-9afb-45df-ad1e-040f416bd121)
 
+**3 - Filtrage réseau :**  
 
+Voici l'une des régles de filtrage réseau  
 
+![Capture d’écran 2025-01-21 124201](https://github.com/user-attachments/assets/31726af9-c98a-4541-901f-363c9e6a9431)
 
+![Capture d’écran 2025-01-21 123916](https://github.com/user-attachments/assets/b4e0f830-452e-465a-bc75-0c7cc31949c6)  
 
+![Capture d’écran 2025-01-21 124110](https://github.com/user-attachments/assets/a5050f46-4670-402b-a66b-6e76471fee3e)  
 
-
-
-**3 - Filtrage réseau :**
-
+![Capture d’écran 2025-01-21 123815](https://github.com/user-attachments/assets/8e815f2b-fd7f-4b2a-ad87-1cbc5cf1872a)  
 
 <a href="README.md">(Retourner au sommaire)</a>
