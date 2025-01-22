@@ -6,7 +6,7 @@
 **1 - Déploiement et configuration des machines clientes Windows :**
 
 
-**2 - Déploiement et configuration des machines Ubuntu :**
+**2 - Déploiement et configuration des machines clientes Ubuntu :**
 
 
 **3 - Déploiement et configuration des téléphones IP :**
