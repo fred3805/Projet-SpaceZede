@@ -10,9 +10,11 @@
 ![2](https://github.com/user-attachments/assets/b5db41af-d3a4-47fc-9b44-d3c47b0ea197)  
 
 Appuyer ensuite sur "NEXT" sur la page suivant  
+Selectionner les rôles puis "NEXT"  
 
 ![3](https://github.com/user-attachments/assets/59dcbc37-879f-4c53-8713-1167fb683413)  
 
+Appuyer sur "INSTALL"  
 ![4](https://github.com/user-attachments/assets/59028b30-a650-4b32-9913-d6d50abac53c)  
 
 **2 - Installation et configuration du serveur de fichiers :**
