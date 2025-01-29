@@ -5,6 +5,49 @@
 
 **1 - Création des utilisateurs :**
 
+- Script de création des Utilisateurs
+```
+# Chemin du fichier CSV
+$csvPath = "C:\Script\AddUsers.csv"
+
+# Charger le fichier CSV
+$users = Import-Csv -Path $csvPath
+
+# Parcourir chaque ligne du CSV pour créer un utilisateur
+foreach ($user in $users) {
+    # Extraire les informations de la ligne CSV
+    $civilite = $user.Civilite
+    $prenom = $user.Prenom
+    $nom = $user.Nom
+    $service = $user.Service
+    $email = $user.mail # Utiliser directement l'email du fichier CSV
+
+    # Définir le nom complet et le nom d'utilisateur (UPN)
+    $nomComplet = "$prenom $nom"
+    $userPrincipalName = $email  # Utiliser directement l'email du fichier CSV
+    $login = "$prenom.$nom"
+
+    # Définir l'OU où l'utilisateur sera créé
+    $ouPath = "OU=Utilisateurs,OU=$service,OU=EchoTechSolutions,DC=EchoTechSolutions,DC=lan"
+
+    # Créer l'utilisateur dans l'AD
+    New-ADUser -SamAccountName $login `
+               -UserPrincipalName $userPrincipalName `
+               -Name $nomComplet `
+               -GivenName $prenom `
+               -Surname $nom `
+               -DisplayName $nomComplet `
+               -EmailAddress $email `
+               -Department $service `
+               -AccountPassword (ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force) `
+               -Enabled $true `
+               -Path $ouPath `
+               -PassThru
+
+    Write-Host "Utilisateur $nomComplet créé avec succès dans l'OU $ouPath"
+}
+```
+
 
 **2 - Création des dossiers partagés :**
 
