@@ -28,7 +28,7 @@ foreach ($user in $users) {
     $login = "$prenom.$nom"
 
     # Définir l'OU où l'utilisateur sera créé
-    $ouPath = "OU=Utilisateurs,OU=$service,OU=SpaceZede,DC=SpaceZede,DC=fr"
+    $ouPath = "OU=Utilisateurs,OU=$service,OU=SpaceZede,DC=SpaceZede,DC=local"
 
     # Créer l'utilisateur dans l'AD
     New-ADUser -SamAccountName $login `
