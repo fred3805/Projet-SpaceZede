@@ -98,10 +98,3 @@ Write-Host "Les OUs ont été traitées."
 
 
 <a href="README.md">(Retourner au sommaire)</a>
-Civilite,Prenom,Nom,Service,Mail
-M,Melon,Lusk,Direction,M.Lusk@SpaceZede.local
-M,Jeff,Cassosse,Finance,J.Cassosse@SpaceZede.local
-M,Mikey,Trump,Marketing,M.Trump@SpaceZede.local
-Mme,Kena,Louest,Marketing,K.Louest@SpaceZede.local
-M,Dodge,Vaillepeur,Production,D.Vaillepeur@SpaceZede.local
-M,Clay,Huessebet,Production,C.Huessebet@SpaceZede.local
