@@ -5,8 +5,8 @@
 
 **1 - Création des utilisateurs :**
 
-- Script de création des Utilisateurs
 ```
+# Script de création des Utilisateurs
 # Chemin du fichier CSV
 $csvPath = "C:\Script\AddUsers.csv"
 
@@ -57,9 +57,8 @@ foreach ($user in $users) {
 
 **4 - Création des scripts :**
 
-- Script de création des OU
-
 ```
+# Script de création des OU
 # Définir le chemin de l'OU parent
 $ou_parent = "OU=SpaceZede,DC=SpaceZede,DC=local"
 
