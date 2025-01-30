@@ -31,6 +31,27 @@ Appuyer sur "INSTALL"
 
 ![6](https://github.com/user-attachments/assets/09f4b1d0-689c-4586-87dd-7d283ece13b0)  
 
+![1](https://github.com/user-attachments/assets/0509ca99-31ef-484e-94c9-04d3e742a22e)  
+
+![2](https://github.com/user-attachments/assets/996ed0ff-db9f-47e5-9198-64331a39fa8c)  
+
+![3](https://github.com/user-attachments/assets/277e28aa-56e0-496f-974a-e8f358742f29)  
+
+![4](https://github.com/user-attachments/assets/db3601d3-78eb-49af-9118-9fe98c7638e5)  
+
+![5](https://github.com/user-attachments/assets/80ed702d-cda4-48c1-9ea7-6b482584517a)  
+
+![6](https://github.com/user-attachments/assets/4e34b6a6-5b8c-4400-bfc6-9409e07bb974)  
+
+![7](https://github.com/user-attachments/assets/7033ab19-99b9-4386-87c0-a258d24f0a94)  
+
+![8](https://github.com/user-attachments/assets/b3a80be8-3764-4e96-92c3-544831199e09)  
+
+![9](https://github.com/user-attachments/assets/07aba628-5d25-4eb1-b5c8-86deb1385f1f)  
+
+![10](https://github.com/user-attachments/assets/1b80a020-289c-47b7-a6ac-498c23677b56)  
+
+
 **3 - Installation et configuration du serveur de téléphonie :**
 
 
