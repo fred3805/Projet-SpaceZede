@@ -50,6 +50,56 @@ foreach ($user in $users) {
 
 
 **2 - Création des dossiers partagés :**
+```
+# Script de création des dossiers partagés
+# Définir le chemin de base où les dossiers partagés seront créés
+$basePath = "C:\Shares"
+# Connexion à Active Directory
+Import-Module ActiveDirectory
+# Récupérer toutes les OU correspondant aux noms de services sous l'OU SpaceZede
+$serviceOUs = Get-ADOrganizationalUnit -Filter * -SearchBase "OU=EchoTechSolutions,DC=EchoTechSolutions,DC=lan" -SearchScope OneLevel
+foreach ($serviceOU in $serviceOUs) {
+    $serviceName = $serviceOU.Name
+    # Créer un dossier pour le service (si il n'existe pas déjà)
+    $serviceFolderPath = Join-Path -Path $basePath -ChildPath $serviceName
+    if (-not (Test-Path $serviceFolderPath)) {
+        New-Item -Path $serviceFolderPath -ItemType Directory
+    }
+    # Récupérer les groupes dans l'OU "Groupes" de ce service
+    $groupOU = "OU=Groupes," + $serviceOU.DistinguishedName
+    $groups = Get-ADGroup -Filter * -SearchBase $groupOU
+    # Accorder des permissions aux groupes sur le dossier du service
+    foreach ($group in $groups) {
+        $groupName = $group.Name
+        $acl = Get-Acl -Path $serviceFolderPath
+        $accessRule = New-Object System.Security.AccessControl.FileSystemAccessRule(
+            "$groupName", "Modify", "ContainerInherit,ObjectInherit", "None", "Allow"
+        )
+        $acl.AddAccessRule($accessRule)
+        Set-Acl -Path $serviceFolderPath -AclObject $acl
+    }
+    # Récupérer les utilisateurs dans l'OU "Utilisateurs" de ce service
+    $userOU = "OU=Utilisateurs," + $serviceOU.DistinguishedName
+    $users = Get-ADUser -Filter * -SearchBase $userOU
+    # Créer un dossier partagé pour chaque utilisateur
+    foreach ($user in $users) {
+        $userName = $user.SamAccountName
+        $userFolderPath = Join-Path -Path $basePath -ChildPath $userName
+        # Créer un dossier pour l'utilisateur (si il n'existe pas déjà)
+        if (-not (Test-Path $userFolderPath)) {
+            New-Item -Path $userFolderPath -ItemType Directory
+        }
+        # Accorder les permissions à l'utilisateur sur son dossier
+        $acl = Get-Acl -Path $userFolderPath
+        $accessRule = New-Object System.Security.AccessControl.FileSystemAccessRule(
+            "$userName", "FullControl", "ContainerInherit,ObjectInherit", "None", "Allow"
+        )
+        $acl.AddAccessRule($accessRule)
+        Set-Acl -Path $userFolderPath -AclObject $acl
+    }
+}
+Write-Host "Dossiers partagés créés et permissions attribuées."
+```
 
 
 **3 - Création des GPO :**
