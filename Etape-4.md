@@ -46,7 +46,7 @@ Write-Host "Les OUs ont été traitées."
 **2 - Création des utilisateurs :**
 ```
 # Chemin du fichier CSV listant les utilisateurs.
-$CsvPath = "C:\Script\AddUsers.csv"
+$CsvPath = "C:\Scripts\AddUsers.csv"
 
 # Importation du fichier CSV.
 $Users = Import-Csv -Path $CsvPath
@@ -87,22 +87,45 @@ foreach ($User in $Users) {
 
 **3 - Création des groupes :**
 ```
+# Définir l'OU racine où se fera les checks et les ajouts.
+$RootOu = "OU=SpaceZede,DC=SpaceZede,DC=local"
 
+# Récupérer les noms des OU services sous l'OU racine.
+$Services = Get-ADOrganizationalUnit -Filter * -SearchBase $RootOu -SearchScope OneLevel
+
+foreach ($Service in $Services) {
+	# Récupérer les OUs "Groupes" et "Utilisateurs" sous chaque service
+	$GroupOu = Get-ADOrganizationalUnit -Filter {Name -eq "Groupes"} -SearchBase $Service.DistinguishedName
+	$UserOu = Get-ADOrganizationalUnit -Filter {Name -eq "Utilisateurs"} -SearchBase $Service.DistinguishedName
+
+	# Vérifier si les OUs "Groupes" et "Utilisateurs" existent.
+	if ($GroupOu -and $UserOu) {
+		# Nom du groupe à créer sous la forme "GG_<Nom du service>"
+		$GroupName = "GG_" + $Service.Name
+
+		# Vérifier si le groupe existe déjà, sinon le créer.
+		$Group = Get-ADGroup -Filter {Name -eq $GroupName} -SearchBase $GroupOu.DistinguishedName
+		if (-not $Group) {
+			Write-Host "Création du groupe : $GroupName"
+			New-ADGroup -Name $GroupName -GroupScope Global -GroupCategory Security -Path $GroupOu.DistinguishedName
+		}
+
+		# Récupérer tous les utilisateurs dans l'OU "Utilisateurs" du même service.
+		$Users = Get-ADUser -Filter * -SearchBase $UserOu.DistinguishedName
+
+		# Ajouter les utilisateurs comme membres du groupe.
+		foreach ($User in $Users) {
+			Write-Host "Ajout de l'utilisateur $($User.SamAccountName) au groupe $GroupName"
+			Add-ADGroupMember -Identity $GroupName -Members $User
+		}
+	} else {
+		Write-Host "OU 'Groupes' ou 'Utilisateurs' manquante dans le service : $($Service.Name)."
+	}
+}
 ```
 
 **4 - Création des dossiers partagés :**
 ```
-<#
-Description :
-	Script "AddSharedFolders" permettant de créer les dossiers partagés avec les bons droits.
-Auteur :
-	github.com/rikiya-gabimaru
-Version :
-	0.1
-Révision :
-	- 0.1 (20/01/2025) : Version Initiale
-#>
-
 # Définir le chemin de base où les dossiers partagés seront créés.
 $BasePath = "C:\Shares"
 
