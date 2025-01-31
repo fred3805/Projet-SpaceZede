@@ -4,7 +4,6 @@
 **Description de l'étape :**  
 
 **1 - Création des OUs :**
-
 ```
 <#
 Description :
@@ -104,7 +103,6 @@ foreach ($User in $Users) {
 		-PassThru
 
 	Write-Host "Utilisateur $nomComplet créé avec succès dans l'OU $OuPath"
-}
 ```
 
 **3 - Création des groupes :**
@@ -121,10 +119,10 @@ Révision :
 #>
 
 # Définir l'OU racine où se fera les checks et les ajouts.
-$RootOu = "OU=SpaceZede,DC=SpaceZede,DC=local"
+$OuParent = "OU=SpaceZede,DC=SpaceZede,DC=local"
 
 # Récupérer les noms des OU services sous l'OU racine.
-$Services = Get-ADOrganizationalUnit -Filter * -SearchBase $RootOu -SearchScope OneLevel
+$Services = Get-ADOrganizationalUnit -Filter * -SearchBase $OuParent -SearchScope OneLevel
 
 foreach ($Service in $Services) {
 	# Récupérer les OUs "Groupes" et "Utilisateurs" sous chaque service
