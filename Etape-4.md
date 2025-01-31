@@ -140,21 +140,22 @@ foreach ($Service in $Services) {
 		$Group = Get-ADGroup -Filter {Name -eq $GroupName} -SearchBase $GroupOu.DistinguishedName
 		if (-not $Group) {
 			Write-Host "Création du groupe : $GroupName"
-		New-ADGroup -Name $GroupName -GroupScope Global -GroupCategory Security -Path $GroupOu.DistinguishedName
+			New-ADGroup -Name $GroupName -GroupScope Global -GroupCategory Security -Path $GroupOu.DistinguishedName
 		}
 
 		# Récupérer tous les utilisateurs dans l'OU "Utilisateurs" du même service.
- 		$Users = Get-ADUser -Filter * -SearchBase $UserOU.DistinguishedName
+		$Users = Get-ADUser -Filter * -SearchBase $UserOu.DistinguishedName
 
 		# Ajouter les utilisateurs comme membres du groupe.
 		foreach ($User in $Users) {
-			Write-Host "Ajout de l'utilisateur $($user.SamAccountName) au groupe $GroupName"
+			Write-Host "Ajout de l'utilisateur $($User.SamAccountName) au groupe $GroupName"
 			Add-ADGroupMember -Identity $GroupName -Members $User
 		}
 	} else {
-        Write-Host "OU 'Groupes' ou 'Utilisateurs' manquante dans le service : $($Service.Name)"
-		}
+		Write-Host "OU 'Groupes' ou 'Utilisateurs' manquante dans le service : $($Service.Name)."
+	}
 }
+
 ```
 
 **4 - Création des dossiers partagés :**
