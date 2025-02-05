@@ -10,7 +10,7 @@
 
 **2 - Listing machines :**  
 
-![Capture d’écran 2025-01-24 121606](https://github.com/user-attachments/assets/4a7703a1-01ad-4613-b74f-692040372601)  
+![Capture d’écran 2025-02-05 102545](https://github.com/user-attachments/assets/61ff2e75-e5af-40a6-831d-843922daf010)
 
 **3 - Schéma synoptique :**  
 
