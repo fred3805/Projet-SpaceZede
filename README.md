@@ -29,13 +29,13 @@ Tous les autres utilisateurs seront sous Windows.
 
 <a id="etat"></a>
 ## Etat d'avancement du projet :
-- [ ] Conception des documents : plan d'adressage IPv4 et IPv6 (LLA et ULA), listing machines, schéma synoptique, matrice des flux
-- [ ] Configuration du routeur (VLANs et filtrage)
-- [ ] Installation et configuration de l'ADDS avec role DNS et DHCP
-- [ ] Installation et configuration du serveur de fichiers
-- [ ] Installation et configuration du serveur de téléphonie
+- [*] Conception des documents : plan d'adressage IPv4 et IPv6 (LLA et ULA), listing machines, schéma synoptique, matrice des flux
+- [*] Configuration du routeur (VLANs et filtrage)
+- [*] Installation et configuration de l'ADDS avec role DNS et DHCP
+- [*] Installation et configuration du serveur de fichiers
+- [*] Installation et configuration du serveur de téléphonie
 - [ ] Installation et configuration du serveur de messagerie
-- [ ] Installation et configuration du serveur GLPI
+- [*] Installation et configuration du serveur GLPI
 - [ ] Installation et configuration du serveur WEB
 - [ ] Création des utilisateurs, des dossiers partagés, des GPO et des scripts
 - [ ] Déploiement et configuration des machines clientes
