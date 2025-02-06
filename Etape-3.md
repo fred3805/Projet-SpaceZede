@@ -58,8 +58,27 @@ Appuyer sur "INSTALL"
 **4 - Installation et configuration du serveur de messagerie :**
 
 
-**5 - Installation et configuration du serveur GLPI :**
+**5 - Installation et configuration du serveur GLPI :**  
 
+![glpi 2](https://github.com/user-attachments/assets/cf9e74f6-c8f9-4d9f-adae-1b7f811cb98b)  
+
+![glpi 3](https://github.com/user-attachments/assets/91534be7-3ac5-4795-9c59-714aaa7db3bf)  
+
+![glpi4](https://github.com/user-attachments/assets/07000bc9-2778-4af9-8bdc-679d6b4b7672)  
+
+![glpi5](https://github.com/user-attachments/assets/11fab725-391e-4337-8030-4f9ac91325cd)  
+
+![6](https://github.com/user-attachments/assets/508dfeae-b970-45ef-89d6-69b1e0f54479)  
+
+![7](https://github.com/user-attachments/assets/60897993-550f-4e23-b24f-81d544f13756)  
+
+![8](https://github.com/user-attachments/assets/4677ff9e-1f35-46e0-9439-6ace5c27ecb0)  
+
+![9](https://github.com/user-attachments/assets/b455c348-1389-493a-868c-30531dd019e9)  
+
+![10](https://github.com/user-attachments/assets/67f2a22e-c551-47a5-96fc-0de231fc7b0e)  
+
+![11](https://github.com/user-attachments/assets/fdb2f5b9-dcf6-4831-b034-4a5559ccf6a5)  
 
 **6 - Installation et configuration du serveur WEB :**
 
