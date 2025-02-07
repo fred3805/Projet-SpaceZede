@@ -1,4 +1,4 @@
-![mail 1](https://github.com/user-attachments/assets/273b0f19-69ab-4bc6-9cfc-f2ddbadd0c81)## Installation et configuration des serveurs
+
 <p align="right"><a href="README.md">(Retourner au sommaire)</a></p>
 
 **Description de l'étape :**  
