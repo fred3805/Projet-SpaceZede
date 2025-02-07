@@ -1,4 +1,4 @@
-## Installation et configuration des serveurs
+![mail 1](https://github.com/user-attachments/assets/273b0f19-69ab-4bc6-9cfc-f2ddbadd0c81)## Installation et configuration des serveurs
 <p align="right"><a href="README.md">(Retourner au sommaire)</a></p>
 
 **Description de l'étape :**  
@@ -55,8 +55,15 @@ Appuyer sur "INSTALL"
 **3 - Installation et configuration du serveur de téléphonie :**
 
 
-**4 - Installation et configuration du serveur de messagerie :**
+**4 - Installation et configuration du serveur de messagerie :**  
 
+![mail 1](https://github.com/user-attachments/assets/9e99910c-7f10-43ea-8071-14592b240411)  
+
+![mail 2](https://github.com/user-attachments/assets/a2edc161-8e98-407c-8d9e-6ed18460bfbc)  
+
+![mail 3](https://github.com/user-attachments/assets/57a5fb5c-abdc-4ef4-852d-6e9320ead6a1)  
+
+![mail4](https://github.com/user-attachments/assets/c61ab0bc-fb93-49c4-9f13-c9a0cb515769)  
 
 **5 - Installation et configuration du serveur GLPI :**  
 
