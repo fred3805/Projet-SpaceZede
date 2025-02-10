@@ -35,7 +35,6 @@ Tous les autres utilisateurs seront sous Windows.
 - [ ] Installation et configuration du serveur de fichiers
 - [x] Installation et configuration du serveur de messagerie
 - [x] Installation et configuration du serveur GLPI
-- [ ] Installation et configuration du serveur WEB
 - [ ] Création des utilisateurs, des dossiers partagés, des GPO et des scripts
 - [x] Déploiement et configuration des machines clientes
 
