@@ -87,7 +87,5 @@ Appuyer sur "INSTALL"
 
 ![11](https://github.com/user-attachments/assets/fdb2f5b9-dcf6-4831-b034-4a5559ccf6a5)  
 
-**6 - Installation et configuration du serveur WEB :**
-
 
 <a href="README.md">(Retourner au sommaire)</a>
