@@ -81,7 +81,6 @@ Tous les autres utilisateurs seront sous Windows.
 - Installation et configuration du serveur de téléphonie
 - Installation et configuration du serveur de messagerie
 - Installation et configuration du serveur GLPI
-- Installation et configuration du serveur WEB
 
 **[Etape-4.md](Etape-4.md) :**
 
