@@ -14,7 +14,7 @@
 
 **3 - Schéma synoptique :**  
 
-![Schema synoptique drawio](https://github.com/user-attachments/assets/46bd6aef-69a9-4c74-89df-44842ee46f93)
+![Schema synoptique drawio](https://github.com/user-attachments/assets/65e4bbf0-7d13-4047-851c-a977e273e7d7)
 
 **4 - Matrice des flux :**
 
