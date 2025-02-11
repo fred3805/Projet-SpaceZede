@@ -3,6 +3,8 @@
 
 **Description de l'étape :**  
 
+**- scripts :**
+
 **1 - Création des OUs :**
 ```
 # Définir le chemin de l'OU parent où seront ajouter les OUs de service.
@@ -126,9 +128,5 @@ foreach ($Service in $Services) {
 
 
 **5 - Création des GPO :**
-
-
-**6 - Création des scripts :**
-
 
 <a href="README.md">(Retourner au sommaire)</a>
