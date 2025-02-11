@@ -4,17 +4,17 @@
 **Description de l'étape :**  
 
 
-**1 - Plan d'adressage IPv4 et IPv6 (LLA) :**  
+**1 - Plan d'adressage IPv4 (LLA) :**  
 
-![Capture d’écran 2025-01-20 191734](https://github.com/user-attachments/assets/9402f8f1-0165-4fe5-827f-1fe0fa3ff232)  
+![Capture d’écran 2025-02-11 081413](https://github.com/user-attachments/assets/966f1bd2-53a3-4e65-a521-215944c99859)
 
 **2 - Listing machines :**  
 
-![Capture d’écran 2025-02-05 102545](https://github.com/user-attachments/assets/61ff2e75-e5af-40a6-831d-843922daf010)
+![Capture d’écran 2025-02-11 081303](https://github.com/user-attachments/assets/62c24545-bdec-41f8-bd5f-197089a84011)
 
 **3 - Schéma synoptique :**  
 
-![Schema synoptique drawio](https://github.com/user-attachments/assets/65e4bbf0-7d13-4047-851c-a977e273e7d7)
+![Schema synoptique drawio](https://github.com/user-attachments/assets/bad262e9-e6a2-4366-b85d-4184a2587cd8)
 
 **4 - Matrice des flux :**
 
