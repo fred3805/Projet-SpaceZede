@@ -54,6 +54,16 @@ Appuyer sur "INSTALL"
 
 **3 - Installation et configuration du serveur de téléphonie :**
 
+Installer Freepbx  
+
+![1](https://github.com/user-attachments/assets/48000251-bfc2-4105-8c47-f19c8d456c03)  
+
+![2](https://github.com/user-attachments/assets/7681344a-69ab-4b31-b058-f8e6167f49b1)  
+
+![3](https://github.com/user-attachments/assets/a43e0fe7-c79f-485a-908a-4f94a40d2cc9)  
+
+![4](https://github.com/user-attachments/assets/108c50ef-f788-415d-8f7f-bb39ab22eadd)  
+
 
 **4 - Installation et configuration du serveur de messagerie :**  
 
