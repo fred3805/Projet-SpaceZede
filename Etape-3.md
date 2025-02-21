@@ -1,5 +1,5 @@
 
-<p align="right"><a href="README.md">(Retourner au sommaire)</a></p>
+<p align="right"><a href="README.md"></a></p>
 
 **Description de l'étape :**  
 
@@ -64,6 +64,13 @@ Installer Freepbx
 
 ![4](https://github.com/user-attachments/assets/108c50ef-f788-415d-8f7f-bb39ab22eadd)  
 
+![5](https://github.com/user-attachments/assets/90faaf49-87b9-4217-bc32-bd208c33783c)  
+
+![6](https://github.com/user-attachments/assets/bbb86370-17af-4109-8453-4d478253b80b)  
+
+![7](https://github.com/user-attachments/assets/f2be13ed-e943-4515-81c4-377626335694)  
+
+![8](https://github.com/user-attachments/assets/1df4d470-19ce-436a-b7f2-6af12fb29690)  
 
 **4 - Installation et configuration du serveur de messagerie :**  
 
